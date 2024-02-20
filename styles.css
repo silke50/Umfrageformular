@@ -1,0 +1,135 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  font-size: 16px;
+  background-color: #DBCFDD;
+  font-size: 17px;
+}
+
+.background {
+  width: 80%;
+  height: 105%;
+  background-color: #5B445F;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin-top: 25px;
+  box-sizing: border-box;
+}
+  
+  h1, p {
+    margin: 0.2em auto;
+    text-align: center;
+    color: #DBCFDD;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    margin-top: 30px;
+    
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.8rem 0.5rem;
+    color: #DBCFDD
+  }
+
+  #radio {
+    margin-top: 40px;
+    
+  }
+  
+  .autor-auswahl {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 15px;
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.5);
+    
+  }
+
+  .genres {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 85%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #DBCFDD;
+    border: 1px solid #DBCFDD;
+    color: #ffffff;
+  }
+
+  #dropdown {
+    margin-top: 45px;
+    background-color: #DBCFDD;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #DBCFDD;
+    border-color: white;
+    min-width: 300px;
+    color: #5B445F;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  .inline{
+    display: inline; 
+  }
+
+  label[for="comments"] {
+    margin-top: 6%;
+  }
+
+  #submit {
+    margin-left: 50px;
+    margin-bottom: 18%;
+    color: #5B445F;
+  }
+
+  #name-label {
+    margin-bottom: 10px;
+  }
+  
+  
+  

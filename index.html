@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Umfrageformular</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+    <h1 id="title">Umfrageformular</h1>
+    <P id="description">Wir möchten gerne erfahren, welches Genre am beliebtesten ist! Vielen Dank für Ihre Teilnahme!</p>
+        <form id="survey-form" action="dein_action_endpoint" method="POST">
+            <!--name eingabefeld-->
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" for="name" placeholder="Geben Sie Ihren Namen ein" required>
+            <!-- email eingabefeld-->
+        <label id="email-label" for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" placeholder="Geben Sie Ihre E-Mail ein" required>
+            <!-- nummer eingabefeld-->
+        <label id="number-label" for="number">Number:</label>
+        <input type="number" id="number" name="number" placeholder="Geben Sie Ihre Nummer ein" required min="16" max="100">
+        <select id="dropdown">
+        <option value="1">Krimi</option>
+        <option value="2">Liebesroman</option>
+        <option value="3">Fantasy</option>
+        </select>
+         <!-- radio buttons -->
+        <label id="radio">Wählen Sie Ihren Autor/in:</label>
+            <label class="autor-auswahl"><input type="radio" name="medium" value="Autor">Chris Carter</label>
+            <label class="autor-auswahl"><input type="radio" name="medium" value="Autor"> Andreas Gruber</label>
+            <label class="autor-auswahl"><input type="radio" name="medium" value="Autorin"> Susanne Oswald</label>
+            
+            <!-- checkboxen -->
+         <label id="radio">Welche Genres mögen Sie noch?</label>
+            <label class="genres"><input type="checkbox" name="additional-genre" value="Thriller"> Thriller</label>
+            <label class="genres"><input type="checkbox" name="additional-genre" value="Science Fiction"> Science Fiction</label>
+            <!-- textarea -->
+         <label for="comments">Ihre Kommentare:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Geben Sie hier Ihre Kommentare ein"></textarea>
+            <!-- submit button -->
+            <input type="submit" id="submit" value="Absenden">
+
+    </form>
+    </div>
+    <footer></footer>
+</body>
+
+</html>
